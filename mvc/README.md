@@ -18,7 +18,7 @@
     
    2. 객체 설계하기
       * 객체 == 사물 -- Object
-        <img width="1183" alt="스크린샷 2021-08-01 오후 9 33 52" src="https://user-images.githubusercontent.com/18282470/127771001-e25158ee-9619-477d-aed1-266744df3614.png">
+        <img width="1177" alt="스크린샷 2021-08-01 오후 9 33 52" src="https://user-images.githubusercontent.com/18282470/127771001-e25158ee-9619-477d-aed1-266744df3614.png">
       
       <img width="1177" alt="스크린샷 2021-08-01 오후 9 34 32" src="https://user-images.githubusercontent.com/18282470/127771017-57002301-0488-4c60-950d-6a1747e3f36f.png">
       
