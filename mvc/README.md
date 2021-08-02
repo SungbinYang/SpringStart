@@ -120,24 +120,26 @@
           <img width="1103" alt="스크린샷 2021-08-02 오후 10 43 25" src="https://user-images.githubusercontent.com/18282470/127871422-f9491754-e2f2-49ed-966a-2f9fe830805a.png">
           ``` java
             class Unit {
-               private String name; 
-               private int speed;
-               public void attack(){
-               
-               }
-               public void move(){
-                  if(name.equals("저글링")) {
-                  speed += 3 
-                }else if(name.euqals("탱크")) {
-                  if("탱크모드") {
+              private String name;
+              private int speed;
+              
+              public void attack() {
+                
+              }
+              
+              public void move() {
+                if (name.equals("저글링")) {
+                  speed += 3;
+                } else if (name.equals("탱크")) {
+                  if ("탱크모드") {
                     speed = 0;
                   } else {
                     speed = 10;
                   }
-                } else if(name.equals("정찰기")) {
+                } else if (name.equals("정찰기")) {
                   speed = 15;
                   충돌 = false;
                 }
-             }
-          }
-         ```
+              }
+            }
+          ```
