@@ -114,4 +114,30 @@
       * 결합도 <br /> 모듈(클래스)간의 상호 의존 정도를 나타내는 지표로써 결합도가 낮으면 모듈간의 상호 의존성이 줄어들어서 객체의 재사용 및 유지보수가 유리하다.
       * 응집도 <br /> 하나의 모듈 내부에 존재하는 구성 요소들의 기능적 관련성으로 <br /> 응집도가 높은 모듈은 하나의 책임에 집중하고 독립성이 높아져, 재사용성 및 유지보수가 용이하다.
       1. SRP(Single Responsibility Principle) 단일 책임원칙
-          * 어떠한 클래스를 변경해야 하는 이유는 한가지뿐이여야 한다.  
+          * 어떠한 클래스를 변경해야 하는 이유는 한가지뿐이여야 한다.
+          <img width="1130" alt="스크린샷 2021-08-02 오후 10 41 00" src="https://user-images.githubusercontent.com/18282470/127871111-4433a033-1a2f-4c84-8642-54586e6e7981.png">
+          <img width="1150" alt="스크린샷 2021-08-02 오후 10 42 38" src="https://user-images.githubusercontent.com/18282470/127871317-862e38ba-3818-4256-9cfb-9af04e8d1897.png">
+          <img width="1103" alt="스크린샷 2021-08-02 오후 10 43 25" src="https://user-images.githubusercontent.com/18282470/127871422-f9491754-e2f2-49ed-966a-2f9fe830805a.png">
+          ``` java
+            class Unit {
+               private String name; 
+               private int speed;
+               public void attack(){
+               
+               }
+               public void move(){
+                  if(name.equals("저글링")) {
+                  speed += 3 
+                }else if(name.euqals("탱크")) {
+                  if("탱크모드") {
+                    speed = 0;
+                  } else {
+                    speed = 10;
+                  }
+                } else if(name.equals("정찰기")) {
+                  speed = 15;
+                  충돌 = false;
+                }
+             }
+          }
+          ```
