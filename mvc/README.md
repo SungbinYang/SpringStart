@@ -86,3 +86,24 @@
   3. 다형성
         * 다형성은 하나의 개체가 여러개향태로 변화 하는것을 말하며, 이를 객체지향에서도 유사하게 사용을 하고 있습니다.
         * 다형성을 위해서는 오버라이딩을 통해서 가능합니다.
+        <img width="1234" alt="스크린샷 2021-08-02 오후 10 22 18" src="https://user-images.githubusercontent.com/18282470/127868644-1dc24347-2eed-4f9b-9273-584de6abc2ff.png"> <br />
+        <img width="1236" alt="스크린샷 2021-08-02 오후 10 23 14" src="https://user-images.githubusercontent.com/18282470/127868775-3da1d7d3-3224-41c6-b590-358da38e1631.png">
+        ``` java
+        Unit 저글링 = new 저글링();
+        Unit 시저탱크 = new 시저탱크();
+        Unit 레이스 = new 레이스();
+        Unit 뮤탈 = new 뮤탈();
+        unitMove(저글링);
+        unitMove(시저탱크);
+        unitMove(레이스);
+        unitMove(뮤탈);
+        
+        private void unitMove(Unit unit) {
+          unit.move();
+        }
+        ```
+  4. 추상화
+    * 객체지향에서의 추상화는 모델링이다.
+    * 구체적으로 공통적인 부분, 또는 특정 특성을 분리해서 재조합하는 부분이 추상화입니다.
+    * 앞에서 배운 다형성, 상속 모두 추상화에 속한다.
+    <img width="1060" alt="스크린샷 2021-08-02 오후 10 29 54" src="https://user-images.githubusercontent.com/18282470/127869632-5c5f6999-83fe-4c24-a5cf-b5cd4ecd4aae.png">
