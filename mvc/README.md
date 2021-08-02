@@ -119,27 +119,27 @@
           <img width="1150" alt="스크린샷 2021-08-02 오후 10 42 38" src="https://user-images.githubusercontent.com/18282470/127871317-862e38ba-3818-4256-9cfb-9af04e8d1897.png">
           <img width="1103" alt="스크린샷 2021-08-02 오후 10 43 25" src="https://user-images.githubusercontent.com/18282470/127871422-f9491754-e2f2-49ed-966a-2f9fe830805a.png">
           ``` java
-            class Unit {
-              private String name;
-              private int speed;
-              
-              public void attack() {
-                
-              }
-              
-              public void move() {
-                if (name.equals("저글링")) {
-                  speed += 3;
-                } else if (name.equals("탱크")) {
-                  if ("탱크모드") {
-                    speed = 0;
-                  } else {
-                    speed = 10;
+              class Unit {
+                private String name;
+                private int speed;
+
+                public void attack() {
+
+                }
+
+                public void move() {
+                  if (name.equals("저글링")) {
+                    speed += 3;
+                  } else if (name.equals("탱크")) {
+                    if ("탱크모드") {
+                      speed = 0;
+                    } else {
+                      speed = 10;
+                    }
+                  } else if (name.equals("정찰기")) {
+                    speed = 15;
+                    충돌 = false;
                   }
-                } else if (name.equals("정찰기")) {
-                  speed = 15;
-                  충돌 = false;
                 }
               }
-            }
           ```
