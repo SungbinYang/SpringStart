@@ -144,3 +144,27 @@
                 }
               }
 ```
+``` java
+  
+  class 저글링 extends Unit {
+    public void mive() {
+      this.speed += 3;
+    }
+   }
+   
+   class 탱크 extends Unit {
+      public void move() {
+        if ("탱크모드") speed = 0;
+        else speed = 10;
+     }
+   }
+   
+   class 정찰기 extends Unit {
+      public void 정찰기() {
+        this.충돌 = false;
+      }
+      public void move() {
+        speed = 15;
+      }
+   }
+```
