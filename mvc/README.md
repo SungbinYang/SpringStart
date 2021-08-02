@@ -168,4 +168,22 @@
       }
    }
 ```
-          * OCP 
+ 2. OCP (Open Closed Principle) 개발 폐쇄 원칙
+    * 자신의 확장에는 열려 있고 주변의 변화에 대해서는 닫혀 있어야 한다.
+    * 상위 클래스 또는 인터페이스를 중간에 둠으로써 자신은 변화에 대해서는 페쇄적이지만, 인터페이스는 외부의 변화에 대해서 확장을 개방해 줄 수 있다.
+    * 이러한 부분은 JDBC와 MyBatis, Hibernate등 JAVA에서는 Stream에서 찾아볼수 있다.
+    <img width="1039" alt="스크린샷 2021-08-02 오후 11 02 02" src="https://user-images.githubusercontent.com/18282470/127873941-0562cd6f-81f7-4391-af20-e932d4eb2cb3.png">
+  3. LSP(Liskov Substitution Principle) 리스코프 치환 원칙
+     * 서브 타입은 언제나 자신의 기반(상위) 타입으로 교체할 수 있어야 한다.
+     <img width="1214" alt="스크린샷 2021-08-02 오후 11 04 41" src="https://user-images.githubusercontent.com/18282470/127874292-97acf966-b0ce-4c79-87df-85ff47c773ac.png">
+  4. ISP(Interface Segregation Principle) 인터페이스 분리 원칙
+      * 클라이언트는 자신이 사용하지 않는 메서드에 의존 관계를 맺으면 안된다.
+      * 프로젝트 요구사항과 설계에 따라서 SRP(단일책임원칙) / ISP(인터페이스분리원칙)를 선탹한다.
+      <img width="1190" alt="스크린샷 2021-08-02 오후 11 07 26" src="https://user-images.githubusercontent.com/18282470/127874643-25d7d637-c6d6-411d-a1fe-abe47c749ec3.png">
+  5. DIP(Dependency Inversion Principle) 의존 역전 원칙
+      * 자신보다 변하기 쉬운것에 의존하지 말아야 한다.
+      <img width="1147" alt="스크린샷 2021-08-02 오후 11 11 21" src="https://user-images.githubusercontent.com/18282470/127875188-eb4d1ab0-b051-47a6-9fba-26ad010e8f3d.png">
+      * 개발 폐쇄 원칙에서도 살펴본 부분이다.
+      * SOLID는 객체지향 4대 특성에 기반함으로써 유사한 모양을 가지고 있다.
+      <img width="1179" alt="스크린샷 2021-08-02 오후 11 13 07" src="https://user-images.githubusercontent.com/18282470/127875447-428460f2-07c0-4f11-b9b1-6d751a5c3a3e.png">
+  
