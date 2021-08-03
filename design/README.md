@@ -78,6 +78,8 @@
     * 데코레이터 패턴은 기존 뼈대(클래스)는 유지하되, 이후 필요한 형태로 꾸밀때 사용한다. 확장이 필요한 경우 상속의 대안으로도 활용한다. SOLID중에서 개방폐쇄원칙(OCP)과 의존역전원칙(DIP)를 따른다.
     <img width="1088" alt="스크린샷 2021-08-03 오후 10 26 31" src="https://user-images.githubusercontent.com/18282470/128023295-b5ae377c-782b-4ce0-b61e-5d950bdb08b4.png">
 
+## Observer Pattern
+  - Observer Pattern
+    * 관찰자 패턴은 변화가 일어났을 때, 미리 등록된 다른 클래스에 통보해주는 패턴을 구현한것이다. 많아보이는 곳은 event listener에서 해당 패턴을 사용하고 있다.
+    <img width="928" alt="스크린샷 2021-08-03 오후 10 56 50" src="https://user-images.githubusercontent.com/18282470/128028151-228bb63f-2547-475f-92a5-39d2ab7b2466.png">
 
-
-    
