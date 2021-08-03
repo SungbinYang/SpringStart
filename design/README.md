@@ -73,5 +73,11 @@
     * SOLID중에서 개방폐쇄 원칙(OCP)과 의존 역전 원칙(DIP)를 따른다.
     <img width="1046" alt="스크린샷 2021-08-03 오후 9 54 03" src="https://user-images.githubusercontent.com/18282470/128018878-018435c0-86bd-4bfe-a576-7fd2e8863b2e.png">
 
+## Decorator Pattern
+  - Decorator Pattern
+    * 데코레이터 패턴은 기존 뼈대(클래스)는 유지하되, 이후 필요한 형태로 꾸밀때 사용한다. 확장이 필요한 경우 상속의 대안으로도 활용한다. SOLID중에서 개방폐쇄원칙(OCP)과 의존역전원칙(DIP)를 따른다.
+    <img width="1088" alt="스크린샷 2021-08-03 오후 10 26 31" src="https://user-images.githubusercontent.com/18282470/128023295-b5ae377c-782b-4ce0-b61e-5d950bdb08b4.png">
+
+
 
     
