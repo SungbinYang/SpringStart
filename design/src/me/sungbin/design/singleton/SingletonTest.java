@@ -1,12 +1,6 @@
-package me.sungbin.design;
+package me.sungbin.design.singleton;
 
-import me.sungbin.design.adapter.Electronic110V;
-import me.sungbin.design.singleton.AClazz;
-import me.sungbin.design.singleton.BClazz;
-import me.sungbin.design.singleton.SocketClient;
-
-public class Main {
-
+public class SingletonTest {
     public static void main(String[] args) {
 
         AClazz aClazz = new AClazz();
