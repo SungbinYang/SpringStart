@@ -1,7 +1,7 @@
 ## SpringStart
 
 1. [객체지향](https://github.com/SungbinYang/SpringStart/tree/main/mvc)
-2. [디자인 패턴]()
+2. [디자인 패턴](https://github.com/SungbinYang/SpringStart/tree/main/design)
 3. [웹 개발 개론]()
 4. [스프링부트 시작]()
 5. [스프링 부트 심화]()
