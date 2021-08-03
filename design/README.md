@@ -59,4 +59,12 @@
     * 이를 주로 사용하는 곳은 서로 자원을 공유할 때 사용하는데, 실물 세계에서는 프린터가 해당되며, <br /> 실제 프로그래밍에서는 TCP Soket통신에서 서버와 연결된 connect 객체에 주로 사용한다.
     <img width="395" alt="스크린샷 2021-08-03 오후 8 49 31" src="https://user-images.githubusercontent.com/18282470/128012622-f6f36413-88b7-4c14-9408-bde7cf1f9089.png">
 
+## Adapter Pattern
+  - Adapter Pattern
+    * Adapter는 실생활에서는 100V를 220V로 변경해주거나, 그 반대로 해주는 흔히 돼지코라고 불리는 변환기를 예로 들수 있다.
+    * 호환성이 없는 기존 클래스의 인터페이스를 변환하여 재사용 할 수 있도록한다.
+    * SOLID중에서 개방폐쇄원칙(OCP)를 따른다.
+    <img width="1097" alt="스크린샷 2021-08-03 오후 9 11 11" src="https://user-images.githubusercontent.com/18282470/128013138-a1bcb849-4cca-4a78-8193-0aae22cbbbb9.png">
+
+
     
