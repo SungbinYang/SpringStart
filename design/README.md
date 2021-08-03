@@ -83,3 +83,7 @@
     * 관찰자 패턴은 변화가 일어났을 때, 미리 등록된 다른 클래스에 통보해주는 패턴을 구현한것이다. 많아보이는 곳은 event listener에서 해당 패턴을 사용하고 있다.
     <img width="928" alt="스크린샷 2021-08-03 오후 10 56 50" src="https://user-images.githubusercontent.com/18282470/128028151-228bb63f-2547-475f-92a5-39d2ab7b2466.png">
 
+## Facade Pattern
+  - Facade Pattern
+    * Facade는 건물의 앞쪽 정면이라는 뜻을 가진다. 여러 개의 객체와 실체 사용하는 서브 객체의 사이에 복잡한 의존관계가 있을 때, 중간에 facade 라는 객체를 두고 여기서 제공하는 interface만을 활용하여 기능을 사용하는 방식이다. Facade는 자신이 가지고 있는 각 클래스의 기능을 명확히 알아야 한다.
+    <img width="1055" alt="스크린샷 2021-08-03 오후 11 09 25" src="https://user-images.githubusercontent.com/18282470/128030043-cdccbb4a-6799-4584-9eae-09db34868a39.png">
