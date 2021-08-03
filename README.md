@@ -1,6 +1,6 @@
 ## SpringStart
 
-1. [객체지향]()
+1. [객체지향](https://github.com/SungbinYang/SpringStart/tree/main/mvc)
 2. [디자인 패턴]()
 3. [웹 개발 개론]()
 4. [스프링부트 시작]()
