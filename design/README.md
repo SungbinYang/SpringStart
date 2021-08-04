@@ -87,3 +87,13 @@
   - Facade Pattern
     * Facade는 건물의 앞쪽 정면이라는 뜻을 가진다. 여러 개의 객체와 실체 사용하는 서브 객체의 사이에 복잡한 의존관계가 있을 때, 중간에 facade 라는 객체를 두고 여기서 제공하는 interface만을 활용하여 기능을 사용하는 방식이다. Facade는 자신이 가지고 있는 각 클래스의 기능을 명확히 알아야 한다.
     <img width="1055" alt="스크린샷 2021-08-03 오후 11 09 25" src="https://user-images.githubusercontent.com/18282470/128030043-cdccbb4a-6799-4584-9eae-09db34868a39.png">
+
+## Strategy Pattern
+  - Strategy Pattern
+    * 전략패턴으로 불리며, 객체지향의 꽃이다.
+    * 유사한 행위들을 캡슐화하여, 객체의 행위를 바꾸고 싶은 경우 직접 변경하는것이 아닌 전략만 변경하여, <br /> 유연하게 확장하는 패턴 SOLID중에서 개방폐쇄원칙(OCP)과 의존역전원칙(DIP)를 따른다.
+    * 전략 메서드를 가진 전략 객체 (Normal Strategy, Base64 Strategy)
+    * 전략 객체를 사용하는 컨텍스트 (Encoder)
+    * 전략 객체를 생성해 컨텍스트에 주입하는 클라이언트
+    <img width="1019" alt="스크린샷 2021-08-04 오후 9 24 31" src="https://user-images.githubusercontent.com/18282470/128180254-90a35425-cb79-44a0-bbf7-c35fd804efaa.png">
+
