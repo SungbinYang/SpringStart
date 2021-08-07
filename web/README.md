@@ -96,4 +96,14 @@
       * GET: https://github.com/SungbinYang/SpringStart/tree/main/web/lessons/2/users/100/READ (x)
       * DELETE: https://github.com/SungbinYang/SpringStart/tree/main/web/lessons/2/users/100 (O)
     * URI Query Parameter 디자인
-      * URI 
+      * URI 쿼리 부분으로 컬렉션 결과에 대해서 필터링 할 수 있다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web?chapter=2
+    * URI 쿼리는 컬렉션의 결과를 페이지로 구분하여 나타내는데 사용한다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web?chapter=2&page=0&size=10&sort=asc
+    * API에 있어서 서브 도메인은 일관성 있게 사용해야 한다.
+      * https://github.com
+      * https://api.github.com
+      * https://api-github.com
+    * 클라이언트 개발자 포탕 서브 도메인은 일관성 있게 만든다.
+      * https://dev-github.com
+      * https://developer-github.com
