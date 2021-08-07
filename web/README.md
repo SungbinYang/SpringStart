@@ -72,3 +72,28 @@
       * https://github.com/SungbinYang/SpringStart/tree/main/web-master
     * 밑줄(_)은 사용하지 않는다.
       * https://github.com/SungbinYang/SpringStart/tree/main/web_master
+    * URI경로에는 소문자가 적합하다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/WEB (X)
+      * https://github.com/SungbinYang/SpringStart/tree/main/web (O)
+    * 파일확장자는 URI에 포함하지 않는다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web/README.md
+    * 프로그래밍 언어에 의존적인 확장자를 사용하자 않는다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web.do
+    * 구현에 의존적인 경로를 사용하지 않는다.
+      * https://github.com/servlet/classes/java/web-master
+    * 세션ID를 포함하지 않는다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web?session-id=abcdef
+    * 프로그래밍 언어의 Method명을 이용하지 않는다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web?action=intro
+    * 명사에 단수형보다는 복수형을 사용해야 한다. 컬렉션에 대한 표현은 복수로 사용
+      * https://github.com/SungbinYang/SpringStart/trees/main/web
+    * 컨트롤러 이름으로는 동사나 동사구를 사용한다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web/re-order
+    * 경로 부분 중 변하는 부분은 유일한 값으로 대체한다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web/lessons/{lesson-id}/users/{user-id}
+      * https://github.com/SungbinYang/SpringStart/tree/main/web/2/users/100
+    * CRUD 기능을 나태내는 것은 URI에 사용하지 않는다.
+      * GET: https://github.com/SungbinYang/SpringStart/tree/main/web/lessons/2/users/100/READ (x)
+      * DELETE: https://github.com/SungbinYang/SpringStart/tree/main/web/lessons/2/users/100 (O)
+    * URI Query Parameter 디자인
+      * URI 
