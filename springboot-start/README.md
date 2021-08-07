@@ -17,3 +17,10 @@
      |---|---|
      |Maven|3.3+|
      |Gradle|4.x(4.4 and later) and 5.x|
+  - Servlet Containers
+     |Name|Servlet Version|
+     |---|---|
+     |Tomcat 9.x|3.3|
+     |Jetty 9.4|3.1|
+     |Undertow 2.0|4.0|
+     |Netty|-|
