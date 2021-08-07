@@ -107,3 +107,22 @@
     * 클라이언트 개발자 포탕 서브 도메인은 일관성 있게 만든다.
       * https://dev-github.com
       * https://developer-github.com
+
+## HTTP Protocol
+  - HTTP (Hyper Text Transfer Protocol)로 RFC 2616에서 규정된 web에서 데이터를 주고 받는 프로토콜
+  - 이름에는 하이퍼텍스트 전송용 프로토콜로 정의되어 있지만 실제로는 HTML, XML, JSON, Image, Voice, Video, Javascript, PDF등 다양한 컴퓨터에서 다룰 수 있는것은 모두 전송할 수 있습니다.
+  - HTTP는 TCP를 기반으로 한 REST의 특징을 모두 구현하고 있는 Web기반의 프로토콜
+  - HTTP는 메시지를 주고 (Request) 받는 (Response) 형태의 통신 방법입니다.
+  <img width="1171" alt="스크린샷 2021-08-08 오전 7 26 18" src="https://user-images.githubusercontent.com/18282470/128615273-a3a0cad8-ef01-4942-a751-7a488cb95805.png">
+  - HTTP의 요청을 특정하는 Method는 8가지가 있습니다.
+  - REST를 구현하기 위한 인터페이스니 알아둬야 합니다.
+  |종류|의미|CRUD|멱등성|안정성|Path Variable|Query Parameter|DataBody|
+  |---|---|---|---|---|---|---|---|
+  |GET|리소스 취득|R|O|O|O|O|X|
+  |POST|리소스 생성, 추가|C|X|X|O|△|O|
+  |PUT|리소스 갱신, 생성|C/U|O|X|O|△|O|
+  |DELETE|리소스 삭제|D|O|X|O|O|X|
+  |HEAD|헤더 데이터 취득|-|O|O|-|-|-|
+  |OPTIONS|지원하는 메소드 취득|-|O|-|-|-|-|
+  |TRACE|요청메시지 반환|-|O|-|-|-|-|
+  |CONNECT|프록시 동작의 터널 접속으로 변경|-|X|-|-|-|-|
