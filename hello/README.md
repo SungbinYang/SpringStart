@@ -3,10 +3,10 @@
 ## Spring Boot
 
   <img width="1197" alt="스크린샷 2021-08-08 오전 8 09 59" src="https://user-images.githubusercontent.com/18282470/128615992-602985ae-bdc1-4b68-9f43-fc35b52c7657.png">
-  - https://docs.spring.io/spring-boot/docs/2.1.x/reference/html/getting-started-introducing-spring-boot.html
-  - Spring Boot는 단순히 실행되며, **프로덕션 제품 수준의 스프링 기반 어플리케이션을 쉽게 만들수 있다.**
-  - Spring Boot 어플리케이션에는 **Spring 구성**이 거의 필욧하지 않다.
-  - Spring Boot **java -jar로 실행하는 Java Application**을 만들 수 있다.
+    - https://docs.spring.io/spring-boot/docs/2.1.x/reference/html/getting-started-introducing-spring-boot.html
+    - Spring Boot는 단순히 실행되며, **프로덕션 제품 수준의 스프링 기반 어플리케이션을 쉽게 만들수 있다.**
+    - Spring Boot 어플리케이션에는 **Spring 구성**이 거의 필욧하지 않다.
+    - Spring Boot **java -jar로 실행하는 Java Application**을 만들 수 있다.
   
   - 주요 목표
     * Spring 개발에 대해 빠르고,광범위하게 적용할 수 있는 환경
