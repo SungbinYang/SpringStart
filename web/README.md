@@ -63,5 +63,12 @@
     * 요청: https://github.com/SungbinYang/SpringStart/blob/main/web/README.md
     * **URL은 URI**의 하위 개념입니다.
 
-  1. URL 설계원칙 (RFC-3986)
-    - fdfdf
+  - URL 설계원칙 (RFC-3986)
+    * 슬래시 구분자(/)는 계층관계를 나타내는데 사용한다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web
+    * URI 마지막 문자로 (/)는 포함하지 않는다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web/
+    * 하이픈(-)은 URI 가독성을 높이는데 사용한다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web-master
+    * 밑줄(_)은 사용하지 않는다.
+      * https://github.com/SungbinYang/SpringStart/tree/main/web_master
