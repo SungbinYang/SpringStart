@@ -54,3 +54,14 @@
     * 이러한 조건들을 잘 갖춘 경우 **RESTFUL**하다고 표현하고, 이를 REST API라고 부릅니다.
 
 ## URI 설계 패턴
+  - URI(Uniform Resource Identifier)
+    * 인터넷에서 특정자원을 나타내는 주소 값. 해당 값은 유일하다. (응답은 달라질 수 있다.)
+    * 요청: https://github.com/SungbinYang/SpringStart/blob/main/web/
+    * 응답: README.md, README.pdf
+  - URL(Uniform Resource Locator)
+    * 인터넷에서의 자원, 특정 파일이 어디에 위치하는지 식별하는 주소
+    * 요청: https://github.com/SungbinYang/SpringStart/blob/main/web/README.md
+    * **URL은 URI**의 하위 개념입니다.
+
+  1. URL 설계원칙 (RFC-3986)
+     *  
