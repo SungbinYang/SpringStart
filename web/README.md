@@ -116,13 +116,10 @@
   <img width="1171" alt="스크린샷 2021-08-08 오전 7 26 18" src="https://user-images.githubusercontent.com/18282470/128615273-a3a0cad8-ef01-4942-a751-7a488cb95805.png">
   - HTTP의 요청을 특정하는 Method는 8가지가 있습니다.
   - REST를 구현하기 위한 인터페이스니 알아둬야 합니다.
-|종류|의미|CRUD|멱등성|안정성|Path Variable|Query Parameter|DataBody|
-|---|---|---|---|---|---|---|---|
-|GET|리소스 취득|R|O|O|O|O|X|
-|POST|리소스 생성, 추가|C|X|X|O|△|O|
-|PUT|리소스 갱신, 생성|C/U|O|X|O|△|O|
-|DELETE|리소스 삭제|D|O|X|O|O|X|
-|HEAD|헤더 데이터 취득|-|O|O|-|-|-|
-|OPTIONS|지원하는 메소드 취득|-|O|-|-|-|-|
-|TRACE|요청메시지 반환|-|O|-|-|-|-|
-|CONNECT|프록시 동작의 터널 접속으로 변경|-|X|-|-|-|-|
+  <img width="1167" alt="스크린샷 2021-08-08 오전 7 30 30" src="https://user-images.githubusercontent.com/18282470/128615488-e2cb1c5c-3ee8-4067-8962-852a817f94fd.png">
+    > 여기서 멱등성이란, 사용자가 몇번을 호출하든 같은 결과값이 나오는것을 의미한다.
+  - HTTP Status Code
+    * 응답을 나타내는 코드
+    <img width="1155" alt="스크린샷 2021-08-08 오전 7 46 02" src="https://user-images.githubusercontent.com/18282470/128615636-773ae343-2654-4c72-b3b1-6d7aeb935fc5.png">
+    * 자주 사용되는 코드
+    <img width="1160" alt="스크린샷 2021-08-08 오전 7 48 52" src="https://user-images.githubusercontent.com/18282470/128615685-18bfc007-0b4d-4b65-b656-1290ba5b4a98.png">
