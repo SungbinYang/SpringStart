@@ -84,3 +84,8 @@ public class HelloApplication {
 ```properties
     server.port=9090
 ```
+
+* 실행화면
+  ![스크린샷 2021-08-08 오전 8 55 51](https://user-images.githubusercontent.com/18282470/128616539-96d2d368-09a8-49f3-80ea-491139b63bf1.png)
+  ![스크린샷 2021-08-08 오전 8 56 02](https://user-images.githubusercontent.com/18282470/128616545-44b4a756-091c-4f8c-83dc-f9362693cd05.png)
+
