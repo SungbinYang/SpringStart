@@ -72,64 +72,38 @@ public class User {
 ```java
 package me.sungbin.objectmapper;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-public class User {
+@SpringBootTest
+class ObjectMapperApplicationTests {
 
-    private String name;
-    private int age;
+    @Test
+    void contextLoads() throws JsonProcessingException {
+        System.out.println("-------------------");
 
-    @JsonProperty("phone_number")
-    private String phoneNumber;
+        // Text Json -> Object
+        // Object -> Text Json
 
-    public User() {
-        this.name = null;
-        this.age = 0;
-        this.phoneNumber = null;
+        // controller req json(text) -> object
+        // response object -> json(text)
+
+        var objectMapper = new ObjectMapper();
+
+        // object -> text
+        // object mapper가 get method를 사용한다.
+        var user = new User("rovbert", 26, "010-1111-2222");
+        var text = objectMapper.writeValueAsString(user);
+        System.out.println(text);
+
+        // text -> object
+        // 이 경우 object mapper는 기본 생성자가 필요하다.
+        var objectUser = objectMapper.readValue(text, User.class);
+        System.out.println(objectUser);
     }
 
-    public User(String name, int age, String phoneNumber) {
-        this.name = name;
-        this.age = age;
-        this.phoneNumber = phoneNumber;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public User defaultUser() {
-        return new User("default", 0, null);
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                '}';
-    }
 }
 ```
 
