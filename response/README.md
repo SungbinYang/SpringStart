@@ -162,3 +162,5 @@ public class User {
 
 > 여기서 속성 값이 null인 경우 제외시켜주는 @JsonInclude(JsonInclude.Include.NON_NULL)을 사용할 수 있다.
 > 또한 그 외에 여러 가지 에노테이션이 있으니 확인 하면 좋을것 같다.
+> 참고로 앞으로 코드 작성시 var이라는 타입추론을 사용할 예정이다.
+> 타입추론은 jdk 9버전 이상부터 사용가능하니 유의 부탁드립니다.
