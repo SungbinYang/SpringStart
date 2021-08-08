@@ -93,8 +93,18 @@ public class HelloApplication {
 
 ## GET API
 <img width="1149" alt="스크린샷 2021-08-08 오전 9 11 20" src="https://user-images.githubusercontent.com/18282470/128616744-1f4d7185-8904-449c-8b56-b1479be632aa.png">
-  <img width="1064" alt="스크린샷 2021-08-08 오전 9 52 58" src="https://user-images.githubusercontent.com/18282470/128617315-a17017ae-2ce4-4565-8301-182010c0708c.png">
-  <img width="1060" alt="스크린샷 2021-08-08 오전 9 53 31" src="https://user-images.githubusercontent.com/18282470/128617324-33bd5f8c-0ec0-4b94-bd52-d9978e8cd737.png">
+
+|                 |                                   |
+| --------------- | --------------------------------- |
+| @GetMapping | Get Resource 설정                     |
+| @RequestParam | URL Query Param Parsing |
+| @PathVariable | URL Query Variable Parsing |
+| Object | Query Param Object로 Parsing |
+
+|               |                           |
+| ------------- | ------------------------- |
+| @RestController  | Rest API 설정        |
+| @RequestMapping  | 리소스를 설정 (method로 구분가능)  |
 
 * GetApiController.java
 ``` java
@@ -220,5 +230,10 @@ public class UserRequest {
 }
 
   ```
+* 실행화면
+![](https://images.velog.io/images/ysb05222/post/19836c63-5c16-473d-a21c-6a7c7e50e533/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-08-08%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.37.02.png)
+
+> 다음과 같은 구글 웹스토어에 rest client 프로그램에 http방식과 url을 적어서 테스트를 해볼수 있다.
+방식은 get인 경우 url을 적고 쿼리스트링이 있는경우 적고 send버튼을 보내면 끝이다.
 
 
