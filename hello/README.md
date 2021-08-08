@@ -90,13 +90,14 @@ public class HelloApplication {
   ![스크린샷 2021-08-08 오전 8 55 51](https://user-images.githubusercontent.com/18282470/128616539-96d2d368-09a8-49f3-80ea-491139b63bf1.png)
   ![스크린샷 2021-08-08 오전 8 56 02](https://user-images.githubusercontent.com/18282470/128616545-44b4a756-091c-4f8c-83dc-f9362693cd05.png)
 
+
 ## GET API
-  <img width="1149" alt="스크린샷 2021-08-08 오전 9 11 20" src="https://user-images.githubusercontent.com/18282470/128616744-1f4d7185-8904-449c-8b56-b1479be632aa.png">
+<img width="1149" alt="스크린샷 2021-08-08 오전 9 11 20" src="https://user-images.githubusercontent.com/18282470/128616744-1f4d7185-8904-449c-8b56-b1479be632aa.png">
   <img width="1064" alt="스크린샷 2021-08-08 오전 9 52 58" src="https://user-images.githubusercontent.com/18282470/128617315-a17017ae-2ce4-4565-8301-182010c0708c.png">
   <img width="1060" alt="스크린샷 2021-08-08 오전 9 53 31" src="https://user-images.githubusercontent.com/18282470/128617324-33bd5f8c-0ec0-4b94-bd52-d9978e8cd737.png">
-  
-  * GetApiController.java
-  ``` java
+
+* GetApiController.java
+``` java
 package me.sungbin.hello.controller;
 
 import me.sungbin.hello.dto.UserRequest;
@@ -173,8 +174,8 @@ public class GetApiController {
 
   ```
   * UserRequest.java
-  ``` java
-    package me.sungbin.hello.dto;
+``` java
+package me.sungbin.hello.dto;
 
 public class UserRequest {
 
