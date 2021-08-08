@@ -19,3 +19,6 @@
   |@AfterReturing|메소드 호출 성공 실행시 (Not Throws)|
   |@AfterThrowing|메소드 호출 실패 예외 발생 (Throws)|
   |@Around|Before / after 모두 제어|
+
+- 횡단 관심
+  <img width="1140" alt="스크린샷 2021-08-08 오후 3 41 44" src="https://user-images.githubusercontent.com/18282470/128623383-61924a7b-57b3-429e-a2a5-cdf9cca2cb5c.png">
