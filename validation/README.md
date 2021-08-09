@@ -37,3 +37,24 @@
   |@Min|최소값||
   |@AssertTrue / False|별도 로직 적용||
   |@Valid|해당 object validation 실행|| 
+
+## Spring Boot Custom Validation
+  ||||
+  |------|---|---|
+  |@Size|문자 길이 측정|int Type 불가|
+  |@NotNull|null 불가||
+  |@NotEmpty|null, ""불가||
+  |@NotBlank|null, "", " "불가||
+  |@Past|과거날짜||
+  |@PastOrPresent|오늘이거나 과거날짜||
+  |@Future|미래날짜||
+  |@FutureOrPresent|오늘이거나 미래 날짜||
+  |@Pattern|정규식 적용||
+  |@Max|최대값||
+  |@Min|최소값||
+  |@AssertTrue / False|별도 로직 적용||
+  |@Valid|해당 object validation 실행||
+  
+  - Custom Validation
+    1. AssertTrue / False와 같은 method 지정을 통해서 Custom Logic 적용가능
+    2. ConstraintValidator를 적용하여 재사용이 가능한 Custom Logic 적용가능 
