@@ -36,4 +36,4 @@
   |@Max|최대값||
   |@Min|최소값||
   |@AssertTrue / False|별도 로직 적용||
-  |@Valid|해당 object validation 실행||
+  |@Valid|해당 object validation 실행|| 
