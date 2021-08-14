@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.sungbin.DollarCalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-14T08:13:55" hostname="yangsungbinui-MacBookPro.local" time="0.401">
+  <properties/>
+  <testcase name="dollarTest()" classname="me.sungbin.DollarCalculatorTest" time="0.393"/>
+  <testcase name="testHello()" classname="me.sungbin.DollarCalculatorTest" time="0.002"/>
+  <testcase name="mockTest()" classname="me.sungbin.DollarCalculatorTest" time="0.005"/>
+  <system-out><![CDATA[22000
+hello
+60000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
