@@ -1,6 +1,7 @@
 package me.sungbin.client.controller;
 
 import lombok.RequiredArgsConstructor;
+import me.sungbin.client.dto.Req;
 import me.sungbin.client.dto.UserResponse;
 import me.sungbin.client.service.RestTemplateService;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +16,7 @@ public class ApiController {
     private final RestTemplateService restTemplateService;
 
     @GetMapping("/hello")
-    public UserResponse getHello() {
-        return restTemplateService.hello();
+    public Req<UserResponse> getHello() {
+       return restTemplateService.genericExchange();
     }
 }

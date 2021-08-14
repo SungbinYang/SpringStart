@@ -1,4 +1,9 @@
 {
-  "name" : "robert",
-  "age" : 10
+  "header" : {
+    "response_code" : "OK"
+  },
+  "body" : {
+      "name" : "robert",
+      "age" : 26
+  }
 }

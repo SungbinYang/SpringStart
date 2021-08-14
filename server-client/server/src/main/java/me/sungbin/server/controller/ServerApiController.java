@@ -1,11 +1,12 @@
 package me.sungbin.server.controller;
 
+import lombok.extern.slf4j.Slf4j;
+import me.sungbin.server.dto.Req;
 import me.sungbin.server.dto.User;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpEntity;
+import org.springframework.web.bind.annotation.*;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/server")
 public class ServerApiController {
@@ -17,5 +18,23 @@ public class ServerApiController {
         user.setAge(age);
 
         return user;
+    }
+
+    @PostMapping("/user/{userId}/name/{userName}")
+    public Req<User> post(
+//                          HttpEntity httpEntity,
+                          @RequestBody Req<User> user,
+                          @PathVariable int userId, @PathVariable String userName,
+                          @RequestHeader("x-authorization") String authorization, @RequestHeader("custom-header") String customHeader) {
+//        log.info("req: {}", httpEntity.getBody());
+        log.info("userId: {}, userName: {}", userId, userName);
+        log.info("authorization: {}, custom: {}", authorization, customHeader);
+        log.info("client req: {}", user);
+
+        Req<User> response = new Req<>();
+        response.setHeader(new Req.Header());
+        response.setResBody(user.getResBody());
+
+        return response;
     }
 }
